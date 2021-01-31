@@ -6,7 +6,7 @@ const resetButton = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playto');
 
 let p1score = 0;
-let winningScore = 5;
+let winningScore = 0;
 let isGameOver = false;
 player1.addEventListener('click', function () {
     if (!isGameOver) {
